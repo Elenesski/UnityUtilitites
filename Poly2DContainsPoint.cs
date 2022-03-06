@@ -2,6 +2,7 @@ using UnityEngine;
  
 public static class Poly2D
 {
+    // Logic to test to see if a point is inside of a concave polygon bounded by N points.
     public static bool ContainsPoint(Vector2[] polyPoints, Vector2 p)
     {
         var j = polyPoints.Length - 1;
